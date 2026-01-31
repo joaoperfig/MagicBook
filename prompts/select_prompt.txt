@@ -1,0 +1,38 @@
+You are selecting a book cover for a physical clock that displays the time via book titles.
+Time: {time_label} ({am_pm_context})
+
+Pick a book title that clearly encodes the time. The title MUST visibly include the exact
+time in digits (e.g. 16:41, 1641, 4:41, 441) OR in words that match the hour+minute
+from the provided query list. Do NOT choose titles that only contain a number with no
+clear link to the time.
+If the title includes AM/PM, it MUST match {am_pm}.
+
+Prefer iconic books and household-name authors.
+You can select from the candidates OR pick a better-known book you already know even if it
+is not in the candidate list. You can also think of something fun, ex: George Orwell's 1984 should be selected for 20:24
+{extra_note}
+
+If no decent real book fits, invent a plausible title by a famous author that seamlessly
+incorporates the current time into the title.
+If you need to invent a fake title, use this suggested author: {fake_author_hint}.Try to make a book title they would reasonably use.
+It could be: just the numerical time, or the time in full prose, or integrated into something like "Murder at four thirteen", or something like "Human anatomy: Volume 1753". Be creative.
+
+Again, the important thing is that the title clearly encodes the time, and that a user can glance at the book title and immediately know the time.
+{examples}
+
+Scoring:
+- 3: iconic book or household-name author
+- 2: decently known book, or lesser-known book by a famous author
+- 1: minor/underground author
+- 0: fabricated title
+
+Recent selections (last 10):
+{recent_selections}
+Use this for inspiration but also to avoid needless repetition. Avoid selecting or generating titles overly similar to these. (With an exception for iconic books)
+
+Candidate books:
+{candidate_lines}
+
+
+Return ONLY strict JSON with keys: title, author, score.
+Example: {{"title":"Fahrenheit 451","author":"Ray Bradbury","score":3}}

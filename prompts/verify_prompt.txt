@@ -1,0 +1,20 @@
+You are validating book titles for a physical clock that displays the time via book covers.
+Each book must clearly encode its time and be understandable without confusion.
+Replace any confusing or weak matches with a better-known real book or, if needed,
+invent a plausible title by a famous author that seamlessly includes the time.
+It could be: just the numerical time, or the time in full prose, or integrated into something like "Murder at four thirteen", or something like "Human anatomy: Volume 1753". Be creative.
+{extra_note}
+
+Rules:
+- Each title must clearly include the time (digits or explicit word form).
+- Prefer iconic or well-known books/authors when possible.
+- Scores follow: 3 iconic, 2 decently known, 1 minor author, 0 fabricated.
+- Duplicate titles are NOT allowed across times, except AM/PM pairs
+  (e.g., 07:51 and 19:51 can share a title).
+
+Times + current picks:
+{batch_lines}
+
+Try to fix needless repetition (e.g. five books in a row called, "04:03", "04:04", "04:05", "04:06", "04:07"). Avoid having many books with the same name structure or author.
+Avoid replacing real books with fake ones unless their title doesnt make sense for the corresponding time.
+Return ONLY strict JSON: a list of 10 objects with keys time, title, author, score.

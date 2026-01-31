@@ -1,0 +1,15 @@
+EXAMPLES:
+PERFECT: Fahrenheit 451 by Ray Bradbury for 16:41 (and 4:41) - easy to understand and not confusing
+PERFECT: Six O'Clock in the Morning by F. Scott Fitzgerald for 06:00 - direct and obvious
+PERFECT: 4:50 from Paddington by Agatha Christie for 04:50 - direct and obvious
+PERFECT: Four Minutes to Midnight by Larry Collins & Dominique Lapierre for 04:00 - direct and obvious
+PERFECT: Eighteen hundred and eleven by Anna Laetitia Barbauld for 18:11 - references the number perfectly
+PERFECT: Midnight's Children by Salman Rushdie for 00:00 - direct uncufusing reference
+GREAT: 145th Street: Short Stories by Walter Dean Myers for 01:45 - pretty clear
+OK: 1984 by George Orwell for 20:24 - clear but not obvious
+OK: Twelve Years a Slave by Solomon Northup for 12:01 - twelve (12) years a slave (01) not obvious but acceptable
+NOT OK: The Twelve O'Clock High by Walter Tevis for 12:03 - no reference to the three minutes past midnight
+NOT OK: Five Years After by Alexander von Humboldt-Stiftung for 00:05 - good for five minutes past but no reference to the actual hour, could be confused with 05:00 or 13:05
+NOT OK: Eighteen hundred and eleven by Anna Laetitia Barbauld for 00:11 - no reference to the hour, the eighteen is confusing for a time that is not 18h
+NOT OK: 100 Malicious Little Mysteries by many authors for 00:02 - no reference to the hour, the one hundred is confusing
+NOT OK: Matthew 13:55 by The Bible - clear reference but not a book 
