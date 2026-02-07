@@ -109,6 +109,10 @@ def main() -> None:
     epd = epd7in5b_V2.EPD()
     epd.init()
     epd.Clear()
+    # Set border to red (VBDR). Use the same data interval byte as the default.
+    epd.send_command(0x50)
+    epd.send_data(0xB7)
+    epd.send_data(0x07)
 
     # Create 1-bit buffers for black and red channels.
     black_layer = Image.new("1", (FRAME_WIDTH, FRAME_HEIGHT), 1)
