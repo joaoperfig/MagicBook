@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import annotations
 
+import argparse
 import sys
 from pathlib import Path
 
@@ -20,7 +21,20 @@ RED_BMP = PIC_DIR / "1984_test_r.bmp"
 PREVIEW_BMP = PIC_DIR / "1984_test_preview.bmp"
 
 
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="Display spine BMP layers on the e-paper.")
+    parser.add_argument(
+        "--swap-colors",
+        action="store_true",
+        help="Swap the red and black layers before display.",
+    )
+    return parser
+
+
 def main() -> None:
+    parser = build_parser()
+    args = parser.parse_args()
+
     if not BLACK_BMP.exists() or not RED_BMP.exists():
         raise SystemExit(
             "Missing BMP layers. Run image_to_epd_bmps.py to generate *_b.bmp and *_r.bmp."
@@ -28,6 +42,8 @@ def main() -> None:
 
     black_layer = Image.open(BLACK_BMP)
     red_layer = Image.open(RED_BMP)
+    if args.swap_colors:
+        black_layer, red_layer = red_layer, black_layer
 
     if PREVIEW_BMP.exists():
         print(f"Using preview {PREVIEW_BMP}")
