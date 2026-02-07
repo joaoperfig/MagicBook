@@ -1,0 +1,10 @@
+Create a square 1024x1024 image with a white background.
+In the exact center, draw a vertical spine column that is 320x1024 (a 16:5 column)
+with a solid red fill. To the left and right sides of the red spine is white padding.
+Use ONLY solid red, black, and white (no gradients, no shadows, no textures).
+Place the book title and author on the spine in a clean, legible layout, following the design notes.
+Make sure the spine covers the full vertical space of the image, top to bottom
+
+Title: {title}
+Author: {author}
+Design notes: {description}
