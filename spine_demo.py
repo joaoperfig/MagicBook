@@ -22,6 +22,7 @@ SPINE_HEIGHT = 800
 
 TITLE_TEXT = "1984"
 AUTHOR_TEXT = "George Orwell"
+BORDER_COLOR = "red"
 
 
 def load_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
@@ -110,8 +111,14 @@ def main() -> None:
     epd.init()
     epd.Clear()
     # Keep default data-interval settings; use border command if supported.
+    border_map = {
+        "white": 0x01,
+        "black": 0x02,
+        "red": 0x03,
+    }
+    border_value = border_map.get(BORDER_COLOR.lower(), 0x03)
     epd.send_command(0x3C)
-    epd.send_data(0x03)  # red border on panels that support VBD
+    epd.send_data(border_value)
 
     # Create 1-bit buffers for black and red channels.
     black_layer = Image.new("1", (FRAME_WIDTH, FRAME_HEIGHT), 1)
