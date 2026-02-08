@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import annotations
 
+import argparse
 import csv
 import logging
 import sys
@@ -118,8 +119,19 @@ def show_slot(epd, slot: TimeSlot, fast: bool) -> None:
     epd.display(epd.getbuffer(black_layer), epd.getbuffer(red_layer))
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Display the current spine clock book.")
+    parser.add_argument(
+        "--force",
+        metavar="HH:MM:SS",
+        help="Override current time and display the book for this time.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
+    args = parse_args()
 
     try:
         from waveshare_epd import epd7in5b_V2
@@ -135,6 +147,15 @@ def main() -> None:
     since_full = 9  # force a full refresh on first display
 
     try:
+        if args.force:
+            forced_sec = parse_hhmmss(args.force)
+            slot = find_current_slot(slots, forced_sec)
+            if slot is None:
+                raise SystemExit(f"No matching slot for {args.force}.")
+            show_slot(epd, slot, fast=False)
+            logging.info("Displayed %s for forced time %s", slot.time_label, args.force)
+            return
+
         while True:
             now = datetime.now()
             now_sec = now.hour * 3600 + now.minute * 60 + now.second
