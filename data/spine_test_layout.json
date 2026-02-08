@@ -1,0 +1,76 @@
+{
+  "schema_version": "spine_boxes_v1",
+  "spine": {
+    "width": 240,
+    "height": 800,
+    "background": "red"
+  },
+  "elements": [
+    {
+      "type": "rect",
+      "color": "black",
+      "x1": 90,
+      "y1": 40,
+      "x2": 150,
+      "y2": 100
+    },
+    {
+      "type": "text",
+      "color": "white",
+      "x1": 30,
+      "y1": 230,
+      "x2": 210,
+      "y2": 300,
+      "text": "Midnight’s",
+      "align": "center",
+      "direction": "horizontal",
+      "font": "Times",
+      "fit": "contain",
+      "allow_nonlinear_scale": false
+    },
+    {
+      "type": "rect",
+      "color": "black",
+      "x1": 60,
+      "y1": 315,
+      "x2": 180,
+      "y2": 325
+    },
+    {
+      "type": "text",
+      "color": "white",
+      "x1": 30,
+      "y1": 335,
+      "x2": 210,
+      "y2": 405,
+      "text": "Children",
+      "align": "center",
+      "direction": "horizontal",
+      "font": "Times",
+      "fit": "contain",
+      "allow_nonlinear_scale": false
+    },
+    {
+      "type": "rect",
+      "color": "black",
+      "x1": 30,
+      "y1": 740,
+      "x2": 210,
+      "y2": 748
+    },
+    {
+      "type": "text",
+      "color": "black",
+      "x1": 30,
+      "y1": 750,
+      "x2": 210,
+      "y2": 800,
+      "text": "Salman\nRushdie",
+      "align": "center",
+      "direction": "horizontal",
+      "font": "Times",
+      "fit": "contain",
+      "allow_nonlinear_scale": false
+    }
+  ]
+}

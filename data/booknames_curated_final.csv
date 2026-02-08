@@ -1,0 +1,444 @@
+time,start,end,title,author,image
+00:00,00:00:00,00:01:59,Midnight's Children,Salman Rushdie,0000.png
+00:04,00:02:00,00:05:29,Four Past Midnight,Stephen King,0004.png
+00:07,00:05:30,00:08:59,Seven Minutes in Heaven,Sara Shepard,0007.png
+00:11,00:09:00,00:12:59,11 Minutes,Paulo Coelho,0011.png
+00:15,00:13:00,00:16:59,Writing Your Dissertation in Fifteen Minutes a Day,Joan Bolker,0015.png
+00:19,00:17:00,00:20:59,Nineteen Minutes,Jodi Picoult,0019.png
+00:23,00:21:00,00:24:59,23 Minutes in Hell,Bill Wiese,0023.png
+00:27,00:25:00,00:28:29,Twenty-Seven Minutes,Ashley Tate,0027.png
+00:30,00:28:30,00:31:59,Half Past Midnight,Jeff Brackett,0030.png
+00:34,00:32:00,00:36:29,Rule 34,Charles Stross,0034.png
+00:39,00:36:30,00:40:29,39 Steps,John Buchan,0039.png
+00:42,00:40:30,00:43:59,"Elephants Can Remember (Hercule Poirot, #42)",Agatha Christie,0042.png
+00:46,00:44:00,00:48:29,Alcatraz '46,Don Denevi,0046.png
+00:51,00:48:30,00:51:29,Area 51: An Uncensored History of America's Top Secret Military Base,Annie Jacobsen,0051.png
+00:52,00:51:30,00:53:59,52 Pickup,Elmore Leonard,0052.png
+00:56,00:54:00,00:57:29,56 Days,Catherine Ryan Howard,0056.png
+00:59,00:57:30,00:59:29,"59 Seconds: Think a Little, Change a Lot",Richard Wiseman,0059.png
+01:00,00:59:30,01:01:29,One O'Clock Jump,Lise McClendon,0100.png
+01:03,01:01:30,01:04:29,"The One (The Selection, #3)",Kiera Cass,0103.png
+01:06,01:04:30,01:08:29,Slow Lightning Volume 106,Eduardo C. Corral,0106.png
+01:11,01:08:30,01:12:29,"La damnation de Faust, H 111",Hector Berlioz,0111.png
+01:14,01:12:30,01:15:29,The Wheel Of Time (Vol 1 of 14),Robert Jordan / Brandon Sanderson,0114.png
+01:17,01:15:30,01:18:29,The 117-Storey Treehouse,"Andy Griffiths, Terry Denton",0117.png
+01:20,01:18:30,01:21:29,The 120 Days of Sodom,Marquis de Sade,0120.png
+01:23,01:21:30,01:24:59,Chernobyl 01:23:40,Andrew Leatherbarrow,0123.png
+01:27,01:25:00,01:28:29,127 Hours,Rob Smith,0127.png
+01:30,01:28:30,01:31:59,At one-thirty,Isabel Ostrander,0130.png
+01:34,01:32:00,01:35:29,Dragon Ball nº 01/34,Akira Toriyama,0134.png
+01:37,01:35:30,01:38:29,Gantz (1 of 37),Hiroya Oku,0137.png
+01:40,01:38:30,01:42:29,Cantata-140,Philip K. Dick,0140.png
+01:45,01:42:30,01:46:29,145th Street,Walter Dean Myers,0145.png
+01:48,01:46:30,01:49:29,The Sacred Books of the East Volume 48,Max Müller,0148.png
+01:51,01:49:30,01:52:59,151 Quick Ideas to Manage Your Time,Robert E. Dittmer,0151.png
+01:55,01:53:00,01:56:29,Model 155 Helium-Neon Laser User Guide,Spectra Physics,0155.png
+01:58,01:56:30,01:58:59,1. 58 Seconds,Alfred Sparman,0158.png
+02:00,01:59:00,02:00:59,A Tale of Two Cities,Charles Dickens,0200.png
+02:02,02:01:00,02:04:29,2BR02B,Kurt Vonnegut,0202.png
+02:07,02:04:30,02:08:59,Flight 207,Gordon Parker,0207.png
+02:11,02:09:00,02:12:59,211 Things You Should Have Told Your Kids by Now,J. Thomas Mocchi,0211.png
+02:15,02:13:00,02:15:59,Two-fifteen,S. Phillip Miles,0215.png
+02:17,02:16:00,02:18:59,The Cambridge History of China 2 of 17,Cambridge Press,0217.png
+02:21,02:19:00,02:22:29,221B Baker Street,Arthur Conan Doyle,0221.png
+02:24,02:22:30,02:25:29,JoJo’s Bizarre Adventure: Steel Ball Run Vol 2/24,Hirohiko Araki,0224.png
+02:27,02:25:30,02:28:29,Blood Circle (The Executioner #227),Don Pendleton,0227.png
+02:30,02:28:30,02:31:59,Two Thirty: A Memoir,Marc Hill,0230.png
+02:34,02:32:00,02:35:29,Dragon Ball nº 02/34,Akira Toriyama,0234.png
+02:37,02:35:30,02:38:59,Vagabond #2/37,Takehiko Inoue,0237.png
+02:41,02:39:00,02:43:29,Homicides 241,Alban Désiré AFENE,0241.png
+02:46,02:43:30,02:47:29,Forty Six and Two,J. J. Johnson,0246.png
+02:49,02:47:30,02:50:59,Survival 49.2,Dana Allin,0249.png
+02:53,02:51:00,02:54:59,Room 253,Sophie Hannah,0253.png
+02:57,02:55:00,02:58:29,Lab 257,Michael C. Carroll,0257.png
+03:00,02:58:30,03:00:59,The Three-Body Problem,Cixin Liu,0300.png
+03:02,03:01:00,03:03:29,Courtroom 302,Steve Bogira,0302.png
+03:05,03:03:30,03:07:29,305 authentic Art Nouveau jewelry designs,Maurice Dufrène,0305.png
+03:10,03:07:30,03:10:29,Three-Ten to Yuma and Other Stories,Elmore Leonard,0310.png
+03:11,03:10:30,03:12:59,311 Pelican Court,Debbie Macomber,0311.png
+03:15,03:13:00,03:17:59,The 3:15 experiment,"Bernadette Mayer, Lee Ann Brown, Jen Hofer, Danika Dinsmore",0315.png
+03:21,03:18:00,03:22:59,The History of the 321st Infantry,Clarence Walton Johnson,0321.png
+03:25,03:23:00,03:26:59,Emils hyss nr 325,Astrid Lindgren,0325.png
+03:29,03:27:00,03:30:59,The 329th Friend,Marjorie Weinman Sharmat,0329.png
+03:33,03:31:00,03:34:59,333+ Sudoku Puzzles,Million Puzzles,0333.png
+03:37,03:35:00,03:38:59,Slocum 337,Jake Logan,0337.png
+03:41,03:39:00,03:43:29,Case File 341,J. D. Robb,0341.png
+03:46,03:43:30,03:47:29,Barrier 346,Karl Zeigfreid,0346.png
+03:49,03:47:30,03:50:29,Bulletin de l'Institut océanographique. Volume 349,Bulletin de l'Institut océanographique,0349.png
+03:52,03:50:30,03:53:59,352nd Fighter Group,Tom Ivie,0352.png
+03:56,03:54:00,03:57:29,Porsche 356,Laurence Meredith,0356.png
+03:59,03:57:30,03:59:29,3:59,Gretchen McNeil,0359.png
+04:00,03:59:30,04:01:29,Fourth Wing,Rebecca Yarros,0400.png
+04:03,04:01:30,04:04:29,Room 403,Carolyn Keene,0403.png
+04:06,04:04:30,04:07:59,"The History of the Decline and Fall of the Roman Empire, Book 4 of 6",Edward Gibbon,0406.png
+04:10,04:08:00,04:10:59,410: The Other Side Of Oz,Kasey Esser,0410.png
+04:12,04:11:00,04:13:29,The History of Middle Earth Volume 4 of 12,J.R.R. Tolkien,0412.png
+04:15,04:13:30,04:17:29,The Four-fifteen Express,Amelia B. Edwards,0415.png
+04:20,04:17:30,04:21:29,"Liber 420: Cannabis, Magickal Herbs and the Occult",Chris Bennett,0420.png
+04:23,04:21:30,04:24:29,423 colores,Juan Gallardo,0423.png
+04:26,04:24:30,04:27:29,"Guernica, 26.4",Klaus Autbert Maier,0426.png
+04:29,04:27:30,04:30:59,"Les 4 as, tome 29","Chaulet Georges, François Craenhals",0429.png
+04:33,04:31:00,04:34:59,"4'33""",John Cage,0433.png
+04:37,04:35:00,04:38:59,Thrilling Wonder Stories - 04/37,"Eando Binder, Arthur Leo Zagat, Neil R. Jones, Ray Cummings, Paul Ernst, Simpson Stokes, Arch Carr, Edmond Hamilton, John P. Gunnison",0437.png
+04:41,04:39:00,04:42:29,441 días..,Niceto Alcalá-Zamora y Torres,0441.png
+04:44,04:42:30,04:45:59,444 Days,Tim Wells,0444.png
+04:48,04:46:00,04:48:59,4.48 Psychosis,Sarah Kane,0448.png
+04:50,04:49:00,04:50:29,4:50 from Paddington,Agatha Christie,0450.png
+04:51,04:50:30,04:52:29,Fahrenheit 451,Ray Bradbury,0451.png
+04:54,04:52:30,04:55:59,GAO-04-54 Aviation Safety,United States Government Accountability Office,0454.png
+04:58,04:56:00,04:58:59,"Annual Report Volume 58, no.4",New York State Museum,0458.png
+05:00,04:59:00,05:02:29,Five o'clock tea,William Dean Howells,0500.png
+05:05,05:02:30,05:07:29,505 Quilt Blocks,Better Homes and Gardens,0505.png
+05:10,05:07:30,05:10:59,510 SUDOKU Puzzles For Adults,Brh Puzzle Books,0510.png
+05:12,05:11:00,05:13:29,Five Twelve,Christopher T. Rand,0512.png
+05:15,05:13:30,05:17:29,Trusty Five-Fifteen,G. Frank Lydston,0515.png
+05:20,05:17:30,05:21:59,520 Quick & Easy Patchwork Designs,Kei Kobayashi,0520.png
+05:24,05:22:00,05:25:59,524 Main Street,Alan Abel,0524.png
+05:28,05:26:00,05:30:29,MCAT 528,Deeangelee Pooran-Kublall,0528.png
+05:33,05:30:30,05:34:29,533,Cees Nooteboom,0533.png
+05:36,05:34:30,05:37:29,Mark Five Thirty-Six,Kathleen Driver,0536.png
+05:39,05:37:30,05:40:29,Startling Stories - 05/39,"Edmond Hamilton, Stanley G. Weinbaum, Alexander Samalman, John P. Gunnison, Howard V. Brown",0539.png
+05:42,05:40:30,05:43:29,Five Forty Two South Magnolia,Marcelle Harwell,0542.png
+05:45,05:43:30,05:47:29,5:45 to Suburbia,"M. E. Kerr, Kevin Stillwell",0545.png
+05:50,05:47:30,05:51:29,Fifty-Fifty,Steve Cavanagh,0550.png
+05:53,05:51:30,05:54:29,"Perry Rhodan 553, Die Gladiatoren von Terra",Hans Kneifel,0553.png
+05:56,05:54:30,05:57:59,Colt commando 5.56,Marcos Tarre,0556.png
+06:00,05:58:00,06:01:59,Six O'Clock Tales,Enid Blyton,0600.png
+06:04,06:02:00,06:04:59,Six Four,Hideo Yokoyama,0604.png
+06:06,06:05:00,06:08:29,Suite 606,Nora Roberts,0606.png
+06:11,06:08:30,06:12:59,Six Eleven,Joshua Watson,0611.png
+06:15,06:13:00,06:15:59,615 series Operation Manual,ABB,0615.png
+06:17,06:16:00,06:18:29,617 Squadron,"Chris Ward, Andy Lee, Andreas Wachtel",0617.png
+06:20,06:18:30,06:20:59,The 6:20 Man,David Baldacci,0620.png
+06:22,06:21:00,06:24:29,Inside MS-DOS 6.22,Mark Minasi,0622.png
+06:27,06:24:30,06:27:29,The Reader on the 6.27,Jean-Paul Didierlaurent,0627.png
+06:28,06:27:30,06:30:29,GAO-06-28 Performance Budgeting,United States Government Accountability Office,0628.png
+06:33,06:30:30,06:34:29,Phantom Detective - 06/33,G. Wayman Jones,0633.png
+06:36,06:34:30,06:37:29,Polaroid 636 Manual,Polaroid,0636.png
+06:39,06:37:30,06:40:29,639 essential endgame positions,Eric Schiller,0639.png
+06:42,06:40:30,06:44:29,6 Ore e 42 Minuti,"Claude Bouchard, Federica Pagnani",0642.png
+06:47,06:44:30,06:49:29,Cartago Earthquake 6h. 47m,"León Fernández Guardia, Amando Céspedes Marín",0647.png
+06:52,06:49:30,06:54:29,Train 652,Angela Yvette Thurman,0652.png
+06:57,06:54:30,06:58:29,Rolling with the 657 Crew,"Cass Pennant, Rob Silvester, Rob Sylvester",0657.png
+07:00,06:58:30,07:02:29,The Seven Husbands of Evelyn Hugo,Taylor Jenkins Reid,0700.png
+07:05,07:02:30,07:05:59,The 7:05 and the Church Alive,Edwin D. McLane,0705.png
+07:07,07:06:00,07:08:59,707: The Jet Age,Graham M. Simons,0707.png
+07:11,07:09:00,07:13:29,7-Eleven: The Store That Changed America,Jeff Lenard,0711.png
+07:16,07:13:30,07:16:59,The Seven Sixteen: Love & Consequences,A. A. Lewis,0716.png
+07:18,07:17:00,07:19:59,Monster Nr7/18,Naoki Urasawa,0718.png
+07:22,07:20:00,07:24:29,722 miles,Clifton Hood,0722.png
+07:27,07:24:30,07:27:59,Boeing 727 scrapbook,Len Morgan,0727.png
+07:29,07:28:00,07:30:59,729 Curious Creatures,Helen Oxenbury,0729.png
+07:33,07:31:00,07:33:59,7:33 a.m.,Monda Raquel Webb,0733.png
+07:35,07:34:00,07:36:59,Action Comics #735,David Michelinie,0735.png
+07:39,07:37:00,07:39:29,739 Grove St.,Jeanne Bricker,0739.png
+07:40,07:39:30,07:42:29,DS-740D User Manual,Brother,0740.png
+07:45,07:42:30,07:47:59,Confessions on the 7 : 45,Lisa Unger,0745.png
+07:51,07:48:00,07:52:59,The Novel Cure: 751 Books to Cure What Ails You,Ella Berthoud,0751.png
+07:55,07:53:00,07:56:59,ThinkPad 755C User Guide,IBM,0755.png
+07:59,07:57:00,07:59:59,"7 Horas, 59 Minutos",F. C. de la Riva,0759.png
+08:01,08:00:00,08:02:59,801 things you should know,David Olsen,0801.png
+08:05,08:03:00,08:06:59,"Buffy the Vampire Slayer: Season 8, Vol. 5",Jane Espenson,0805.png
+08:09,08:07:00,08:10:59,809 Jacob Street,Marty Young,0809.png
+08:13,08:11:00,08:15:29,813,Maurice Leblanc,0813.png
+08:18,08:15:30,08:18:59,818,"Barry Reese, Jamie Addy, Kell Carpenter, LaToya M. Davidson, Dusty Gres",0818.png
+08:20,08:19:00,08:21:59,Complete Works of Aristotle,Aristotle (ed. Jonathan Barnes),0820.png
+08:24,08:22:00,08:25:59,824 Biscayne,Mu'ayad Abbas,0824.png
+08:28,08:26:00,08:28:59,Slam Dunk Nr08/28,Takehiko Inoue,0828.png
+08:30,08:29:00,08:32:59,Tonight at 8:30,Noël Coward,0830.png
+08:36,08:33:00,08:37:59,8 Hours 36 Minutes,Rachel Ruth,0836.png
+08:40,08:38:00,08:42:29,Rin-ne nº 08/40,Rumiko Takahashi,0840.png
+08:45,08:42:30,08:45:59,Forty-five minutes past eight,Ward Morehouse,0845.png
+08:47,08:46:00,08:47:29,Le train de 8 h. 47,Georges Courteline,0847.png
+08:48,08:47:30,08:50:29,848. The collection of Georges Matcheret and Nadia Wolkonsky,E. V. Lopatkina,0848.png
+08:53,08:50:30,08:54:59,853 Days,United States Congress House Committee on Foreign Affairs Subcommittee on the Middle East and South Asia,0853.png
+08:57,08:55:00,08:58:29,8 Lieder and Songs - for Solo Piano Op. 57,Johannes Brahms,0857.png
+09:00,08:58:30,09:00:59,November Nine,Colleen Hoover,0900.png
+09:02,09:01:00,09:02:59,9:02: The Oklahoma City Bombing,Michael J. Hightower,0902.png
+09:04,09:03:00,09:06:29,Ubuntu 9.04,Richard Petersen,0904.png
+09:09,09:06:30,09:09:59,TR-909 User Manual,Roland Inc,0909.png
+09:11,09:10:00,09:13:29,09/11,Catherine Morley,0911.png
+09:16,09:13:30,09:17:59,Nine Hundred & Sixteen Kids with Ink,916 Ink,0916.png
+09:20,09:18:00,09:20:59,"Nine Minutes, Twenty Seconds",Gary M. Pomerantz,0920.png
+09:22,09:21:00,09:24:29,9/22,Jalil Bahar,0922.png
+09:27,09:24:30,09:27:29,K9 Book 27,Dale Mayer,0927.png
+09:28,09:27:30,09:28:59,928 Miles from Home,Kim Slater,0928.png
+09:30,09:29:00,09:32:29,Sunday At 09-30 Hours.,Arthur J Hichens,0930.png
+09:35,09:32:30,09:37:29,935 Lies,Charles Lewis,0935.png
+09:40,09:37:30,09:41:59,Startling Stories - 09/40,"Oscar J. Friend, Jack Binder, Benson Herbert, Ray Cummings, Gerald Bowman, John P. Gunnison, Earle K. Bergey",0940.png
+09:44,09:42:00,09:45:29,Porsche 944,Larry Warren,0944.png
+09:47,09:45:30,09:48:29,The budget of the United States Government. Volume 947,U.S. Gov,0947.png
+09:50,09:48:30,09:51:29,"A history of Sparta, 950 B.C.",William George Grieve Forrest,0950.png
+09:53,09:51:30,09:53:59,Once@9:53am,Ilan Stavans,0953.png
+09:55,09:54:00,09:57:29,"The Battle of Lechfeld and its Aftermath, August 955",Charles R. Bowlus,0955.png
+10:00,09:57:30,10:02:29,The Woman in Cabin 10,Ruth Ware,1000.png
+10:05,10:02:30,10:07:29,1005,Bill Freeman,1005.png
+10:10,10:07:30,10:10:29,10/10 en Maths,Guy Blandino,1010.png
+10:11,10:10:30,10:13:29,Development of the L-1011 four-dimensional flight management system,H. P. Lee,1011.png
+10:16,10:13:30,10:16:29,Sixteen after ten,Emily Firetog,1016.png
+10:17,10:16:30,10:19:29,Ten to Seventeen,Josephine Dodge Daskam Bacon,1017.png
+10:22,10:19:30,10:24:29,1022 Evergreen Place,"Debbie Macomber, Sandra Burr",1022.png
+10:27,10:24:30,10:28:29,1027,Eloísa Oliva,1027.png
+10:30,10:28:30,10:31:29,Ten-Thirty on a Summer Night,Marguerite Duras,1030.png
+10:33,10:31:30,10:34:29,A Study of History Volumes 10-33,Arnold J. Toynbee,1033.png
+10:36,10:34:30,10:36:59,Secret Agent X - 10/36,"Brant House, William E. Luberoff",1036.png
+10:38,10:37:00,10:40:29,10 Minutes 38 Seconds in This Strange World,Elif Şafak,1038.png
+10:43,10:40:30,10:45:29,Andromaque 10-43,Lionel Chiuch,1043.png
+10:48,10:45:30,10:49:29,Glitch 1048,Robert V. Mikkelson,1048.png
+10:51,10:49:30,10:52:29,Ten Fifty-One,Georgia Lawrence,1051.png
+10:54,10:52:30,10:55:29,Código Civil - Artigo 1054.º,Ministério da Justiça,1054.png
+10:57,10:55:30,10:58:29,Ten Fifty-Seven,M. K. Lazar,1057.png
+11:00,10:58:30,11:02:29,Station Eleven,Emily St. John Mandel,1100.png
+11:05,11:02:30,11:06:29,1105 Yakima Street,"Debbie Macomber, Sandra Burr",1105.png
+11:08,11:06:30,11:09:29,Model 1108 User's Manual,Sensaphone,1108.png
+11:11,11:09:30,11:12:59,11:11,Marie D. Jones,1111.png
+11:15,11:13:00,11:16:29,One-Punch Man Volume 11-15,One,1115.png
+11:18,11:16:30,11:19:59,"Novel 11, Book 18","Dag Solstad, Sverre Lyngstad",1118.png
+11:22,11:20:00,11:23:29,11/22/63,Stephen King,1122.png
+11:25,11:23:30,11:26:29,Vinland Saga 11/25,Makoto Yukimura,1125.png
+11:28,11:26:30,11:28:59,1128,Elliott Taylor,1128.png
+11:30,11:29:00,11:31:29,Around 11 : 30,Yasmin Neal,1130.png
+11:33,11:31:30,11:35:29,Master Numbers 11 33,Felicia Bender,1133.png
+11:38,11:35:30,11:40:29,THX 1138,George Lucas,1138.png
+11:43,11:40:30,11:44:29,LZR-1143,Bryan James,1143.png
+11:46,11:44:30,11:48:29,"Dynasty of Chernigov, 1146",Martin Dimnik,1146.png
+11:51,11:48:30,11:53:29,"Thesis 11, Number 51",Sage Journals Staff,1151.png
+11:56,11:53:30,11:57:59,Cohete Fallido 11-56,Diana Barrales Hernández,1156.png
+12:00,11:58:00,12:01:59,High Noon,Nora Roberts,1200.png
+12:04,12:02:00,12:06:29,"The rise of Islam and the Bengal frontier, 1204",Richard Maxwell Eaton,1204.png
+12:09,12:06:30,12:09:29,"Béziers, 1209",Jean d'Aillon,1209.png
+12:10,12:09:30,12:12:29,Ten Past Noon: Focus and Fate at Forty,Tucker Lieberman,1210.png
+12:15,12:12:30,12:17:29,1215: The Year of Magna Carta,John Gillingham,1215.png
+12:20,12:17:30,12:22:29,1220 Days,Edmond Joseph Babler,1220.png
+12:25,12:22:30,12:26:59,1225 Christmas Tree Lane,Debbie Macomber,1225.png
+12:29,12:27:00,12:30:29,12 Going on 29,Silvana Clark,1229.png
+12:32,12:30:30,12:33:29,Encyclopaedia Britannica Volume 12 of 32,Encyclopaedia Britannica Inc.,1232.png
+12:35,12:33:30,12:36:59,Spicy Mystery Stories – 12/35,"Ellery Watson Calder, John P. Gunnison",1235.png
+12:39,12:37:00,12:39:59,MacDowell 12 Etudes Op.39,Edward MacDowell,1239.png
+12:41,12:40:00,12:42:59,Berserk Volume 12/41,Kentaro Miura,1241.png
+12:45,12:43:00,12:47:29,Knackersons Arrive At 12 : 45,Grace Gilliam,1245.png
+12:50,12:47:30,12:52:29,"The Oxford Book of English Verse, 1250-1900",Arthur Quiller-Couch,1250.png
+12:55,12:52:30,12:56:59,Ihre Maschine startet 12 Uhr 55,Walter Schreiber,1255.png
+12:59,12:57:00,12:59:29,12/59 Shuttle from Yesterday to Today,William Holland,1259.png
+13:00,12:59:30,13:01:59,One O'Clock Jump,Lise McClendon,1300.png
+13:04,13:02:00,13:04:59,1304 Cherry Lane,Kimberly Hathaway,1304.png
+13:06,13:05:00,13:07:59,Slow Lightning Volume 106,Eduardo C. Corral,1306.png
+13:10,13:08:00,13:10:29,Math 1310,Juhler,1310.png
+13:11,13:10:30,13:12:29,"La damnation de Faust, H 111",Hector Berlioz,1311.png
+13:14,13:12:30,13:15:29,The Wheel Of Time (Vol 1 of 14),Robert Jordan / Brandon Sanderson,1314.png
+13:17,13:15:30,13:17:59,The 117-Storey Treehouse,"Andy Griffiths, Terry Denton",1317.png
+13:19,13:18:00,13:20:59,"Diario, 1319",Giovanni di Lemmo Armaleoni da Comugnori,1319.png
+13:23,13:21:00,13:24:59,Chernobyl 01:23:40,Andrew Leatherbarrow,1323.png
+13:27,13:25:00,13:27:59,127 Hours,Rob Smith,1327.png
+13:29,13:28:00,13:31:29,"David II, 1329-71",Michael A. Penman,1329.png
+13:34,13:31:30,13:35:29,Dragon Ball nº 01/34,Akira Toriyama,1334.png
+13:37,13:35:30,13:38:29,Gantz (1 of 37),Hiroya Oku,1337.png
+13:40,13:38:30,13:42:29,Cantata-140,Philip K. Dick,1340.png
+13:45,13:42:30,13:45:29,145th Street,Walter Dean Myers,1345.png
+13:46,13:45:30,13:48:29,1346,"Ole J. Benedictow, Ole Jørgen Benedictow",1346.png
+13:51,13:48:30,13:51:59,151 Quick Ideas to Manage Your Time,Robert E. Dittmer,1351.png
+13:53,13:52:00,13:55:29,Coburg 1353,"Reinhardt Butz, Gert Melville",1353.png
+13:58,13:55:30,13:58:59,1. 58 Seconds,Alfred Sparman,1358.png
+14:00,13:59:00,14:01:59,A Tale of Two Cities,Charles Dickens,1400.png
+14:04,14:02:00,14:05:59,Ubuntu 14.04 LTS Desktop,Richard Leland Petersen,1404.png
+14:08,14:06:00,14:09:29,1408,Stephen King,1408.png
+14:11,14:09:30,14:12:59,211 Things You Should Have Told Your Kids by Now,J. Thomas Mocchi,1411.png
+14:15,14:13:00,14:16:29,Two-fifteen,S. Phillip Miles,1415.png
+14:18,14:16:30,14:19:29,14-18: Understanding the Great War,"Stéphane Audoin-Rouzeau, Annette Becker",1418.png
+14:21,14:19:30,14:23:29,221B Baker Street,Arthur Conan Doyle,1421.png
+14:26,14:23:30,14:26:59,"Accounting, Chapters 14-26","Carl Warren, James M. Reeve, Jonathan Duchac",1426.png
+14:28,14:27:00,14:28:59,Fourteen to Twenty-Eight,Sherry Pattison,1428.png
+14:30,14:29:00,14:31:59,Two Thirty: A Memoir,Marc Hill,1430.png
+14:34,14:32:00,14:36:29,Dragon Ball nº 02/34,Akira Toriyama,1434.png
+14:39,14:36:30,14:39:59,Lido for Time 14 : 39,Brad Lewis,1439.png
+14:41,14:40:00,14:42:29,Homicides 241,Alban Désiré AFENE,1441.png
+14:44,14:42:30,14:44:59,14.44,Bohdan Zadura,1444.png
+14:46,14:45:00,14:46:59,Forty Six and Two,J. J. Johnson,1446.png
+14:48,14:47:00,14:50:29,1448,Christopher Brown,1448.png
+14:53,14:50:30,14:54:29,Room 253,Sophie Hannah,1453.png
+14:56,14:54:30,14:57:59,Crusade Of 1456,James D. Mixson,1456.png
+15:00,14:58:00,15:00:59,The Three-Body Problem,Cixin Liu,1500.png
+15:02,15:01:00,15:04:29,Courtroom 302,Steve Bogira,1502.png
+15:07,15:04:30,15:08:29,Zerbster Prozessionsspiel 1507,Willm Reupke,1507.png
+15:10,15:08:30,15:10:29,Three-Ten to Yuma and Other Stories,Elmore Leonard,1510.png
+15:11,15:10:30,15:12:59,311 Pelican Court,Debbie Macomber,1511.png
+15:15,15:13:00,15:15:29,The 3:15 experiment,"Bernadette Mayer, Lee Ann Brown, Jen Hofer, Danika Dinsmore",1515.png
+15:16,15:15:30,15:17:29,Utopia (1516),Thomas More,1516.png
+15:19,15:17:30,15:19:59,The First Voyage Around the World (1519-1522),"Antonio Pigafetta, Theodore J. Cachey",1519.png
+15:21,15:20:00,15:21:29,The History of the 321st Infantry,Clarence Walton Johnson,1521.png
+15:22,15:21:30,15:23:29,The First Voyage Around the World (1519-1522),"Antonio Pigafetta, Theodore J. Cachey",1522.png
+15:25,15:23:30,15:26:59,Emils hyss nr 325,Astrid Lindgren,1525.png
+15:29,15:27:00,15:29:29,The 329th Friend,Marjorie Weinman Sharmat,1529.png
+15:30,15:29:30,15:31:29,Fifteen-thirty,Helen Wills,1530.png
+15:33,15:31:30,15:34:29,333+ Sudoku Puzzles,Million Puzzles,1533.png
+15:36,15:34:30,15:38:29,1536,Suzannah Lipscomb,1536.png
+15:41,15:38:30,15:41:59,Case File 341,J. D. Robb,1541.png
+15:43,15:42:00,15:43:59,Toriko nº 15/43,"Mitsutoshi Shimabukuro, Daruma Serveis Lingüistics S.L.",1543.png
+15:45,15:44:00,15:47:29,The 15 and the 45,John Langdon-Davies,1545.png
+15:50,15:47:30,15:50:59,Fifteen Fifty,Eneas Barros,1550.png
+15:52,15:51:00,15:53:59,352nd Fighter Group,Tom Ivie,1552.png
+15:56,15:54:00,15:57:29,Porsche 356,Laurence Meredith,1556.png
+15:59,15:57:30,15:59:29,3:59,Gretchen McNeil,1559.png
+16:00,15:59:30,16:00:59,Fourth Wing,Rebecca Yarros,1600.png
+16:02,16:01:00,16:03:29,Marvel 1602,Neil Gaiman,1602.png
+16:05,16:03:30,16:05:59,1605: The Gunpowder Plot,Antonia Fraser,1605.png
+16:07,16:06:00,16:08:29,1607: A New Look at Jamestown,Karen Lange,1607.png
+16:10,16:08:30,16:10:59,410: The Other Side Of Oz,Kasey Esser,1610.png
+16:12,16:11:00,16:13:29,The History of Middle Earth Volume 4 of 12,J.R.R. Tolkien,1612.png
+16:15,16:13:30,16:15:59,The Four-fifteen Express,Amelia B. Edwards,1615.png
+16:17,16:16:00,16:18:29,417,Julian Mayfield,1617.png
+16:20,16:18:30,16:21:59,"Liber 420: Cannabis, Magickal Herbs and the Occult",Chris Bennett,1620.png
+16:24,16:22:00,16:24:59,16 theke 24,Pinākī Ghosha,1624.png
+16:26,16:25:00,16:27:59,"Guernica, 26.4",Klaus Autbert Maier,1626.png
+16:30,16:28:00,16:31:59,Victoria Four-Thirty,Cecil Roberts,1630.png
+16:34,16:32:00,16:35:29,The Road to 1634,"Eric Flint, Virginia DeMarce",1634.png
+16:37,16:35:30,16:38:29,Thrilling Wonder Stories - 04/37,"Eando Binder, Arthur Leo Zagat, Neil R. Jones, Ray Cummings, Paul Ernst, Simpson Stokes, Arch Carr, Edmond Hamilton, John P. Gunnison",1637.png
+16:40,16:38:30,16:40:29,"The English Revolution, 1640",Christopher Hill,1640.png
+16:41,16:40:30,16:42:59,441 días..,Niceto Alcalá-Zamora y Torres,1641.png
+16:45,16:43:00,16:46:29,Manila 1645,Pedro Luengo,1645.png
+16:48,16:46:30,16:48:59,4.48 Psychosis,Sarah Kane,1648.png
+16:50,16:49:00,16:50:29,4:50 from Paddington,Agatha Christie,1650.png
+16:51,16:50:30,16:52:29,Fahrenheit 451,Ray Bradbury,1651.png
+16:54,16:52:30,16:55:59,"The Horus Heresy, Volume 4 of 54",James Swallow,1654.png
+16:58,16:56:00,16:58:59,Diaries of Howard Leopold Morry June 16 '58,"Christopher J. A. Morry, Howard Leopold Morry",1658.png
+17:00,16:59:00,17:00:59,Slaughterhouse-Five,Kurt Vonnegut Jr.,1700.png
+17:02,17:01:00,17:03:29,Clipper 5.02,Gorki Starlin,1702.png
+17:05,17:03:30,17:06:59,505 Quilt Blocks,Better Homes and Gardens,1705.png
+17:09,17:07:00,17:10:29,The 509 Crime Stories,Colin Conway,1709.png
+17:12,17:10:30,17:13:29,Five Twelve,Christopher T. Rand,1712.png
+17:15,17:13:30,17:16:29,Trusty Five-Fifteen,G. Frank Lydston,1715.png
+17:18,17:16:30,17:18:59,Seventeen Eighteen Past Lies Waiting,E. J. Lamprey,1718.png
+17:20,17:19:00,17:21:59,520 Quick & Easy Patchwork Designs,Kei Kobayashi,1720.png
+17:24,17:22:00,17:26:29,524 Main Street,Alan Abel,1724.png
+17:29,17:26:30,17:30:29,Oxygen-17 and Silicon-29,"J.-P Kintzinger, H. Marsmann",1729.png
+17:32,17:30:30,17:33:59,Beethoven Piano Sonatas 17-32,Ludwig van Beethoven,1732.png
+17:36,17:34:00,17:36:29,Mark Five Thirty-Six,Kathleen Driver,1736.png
+17:37,17:36:30,17:39:29,"Lucas, 17:37",Rafael Freda,1737.png
+17:42,17:39:30,17:42:29,Five Forty Two South Magnolia,Marcelle Harwell,1742.png
+17:43,17:42:30,17:43:59,"Catherine: The Great Journey, Russia, 1743",Kristiana Gregory,1743.png
+17:45,17:44:00,17:47:29,5:45 to Suburbia,"M. E. Kerr, Kevin Stillwell",1745.png
+17:50,17:47:30,17:52:29,Fifty-Fifty,Steve Cavanagh,1750.png
+17:55,17:52:30,17:56:59,"The Last Day: Wrath, Ruin, and Reason in the Great Lisbon Earthquake of 1755",Nicholas Shrady,1755.png
+17:59,17:57:00,17:59:29,Seventeen Fifty Nine,F.J. McLynn,1759.png
+18:00,17:59:30,18:01:59,Six of Crows,Leigh Bardugo,1800.png
+18:04,18:02:00,18:04:59,Six Four,Hideo Yokoyama,1804.png
+18:06,18:05:00,18:08:29,Suite 606,Nora Roberts,1806.png
+18:11,18:08:30,18:11:29,Six Eleven,Joshua Watson,1811.png
+18:12,18:11:30,18:13:59,1812: Napoleon’s Fatal March on Moscow,Adam Zamoyski,1812.png
+18:16,18:14:00,18:16:59,"Diary, 1816, relating to Byron, Shelley, etc","John William Polidori, William Michael Rossetti",1816.png
+18:18,18:17:00,18:18:59,Mila 18,Leon Uris,1818.png
+18:20,18:19:00,18:21:59,The 6:20 Man,David Baldacci,1820.png
+18:24,18:22:00,18:24:59,British Malaya Eighteen Twenty-Four onward,Lennox A. Mills,1824.png
+18:26,18:25:00,18:27:59,Eighteen Hundred Twenty-Six Journals of John James Audubon,"John James Audubon, Alice Ford",1826.png
+18:30,18:28:00,18:32:29,"Explanation, or, Eighteen hundred and thirty",J. C. R. Palmer,1830.png
+18:35,18:32:30,18:36:29,Best Contemporary Monologues for Men 18-35,Lawrence Harbison,1835.png
+18:38,18:36:30,18:38:29,"Eighteen Country Ladies, Thirty-Eight Country Hits",Columbia Pictures,1838.png
+18:39,18:38:30,18:40:29,639 essential endgame positions,Eric Schiller,1839.png
+18:42,18:40:30,18:43:29,6 Ore e 42 Minuti,"Claude Bouchard, Federica Pagnani",1842.png
+18:45,18:43:30,18:47:29,6.45pm,Robyn Bolam,1845.png
+18:50,18:47:30,18:52:29,Eighteen Fifty: The Year of Decision,Bernard DeVoto,1850.png
+18:55,18:52:30,18:55:59,Eighteen Fifty-Five,Ivan Turgenev,1855.png
+18:57,18:56:00,18:58:29,Rolling with the 657 Crew,"Cass Pennant, Rob Silvester, Rob Sylvester",1857.png
+19:00,18:58:30,19:01:59,"1900, or, The Last President",Ingersoll Lockwood,1900.png
+19:04,19:02:00,19:05:29,The theory of business enterprise 1904,Thorstein Veblen,1904.png
+19:07,19:05:30,19:07:59,707: The Jet Age,Graham M. Simons,1907.png
+19:09,19:08:00,19:09:59,"Collected poems, 1909-1962",T. S. Eliot,1909.png
+19:11,19:10:00,19:11:29,7-Eleven: The Store That Changed America,Jeff Lenard,1911.png
+19:12,19:11:30,19:13:29,"I Survived the Sinking of the Titanic, 1912",Lauren Tarshis,1912.png
+19:15,19:13:30,19:16:29,Seven Fifteen,Katherine Howell,1915.png
+19:18,19:16:30,19:19:59,1918: War and Peace in Europe,David Stevenson,1918.png
+19:22,19:20:00,19:23:29,"The Vicksburg Assaults, May 19-22",Steven E. Woodworth,1922.png
+19:25,19:23:30,19:25:59,1925: The Year That Made the Decade Roar,Eric Burns,1925.png
+19:27,19:26:00,19:27:59,Boeing 727: Triumph in the Skies,Dan Dornseif,1927.png
+19:29,19:28:00,19:31:29,729 Curious Creatures,Helen Oxenbury,1929.png
+19:34,19:31:30,19:36:29,1934,Alberto Moravia,1934.png
+19:39,19:36:30,19:39:29,739 Grove St.,Jeanne Bricker,1939.png
+19:40,19:39:30,19:41:59,Exodus 19-40,William Henry Propp,1940.png
+19:44,19:42:00,19:45:59,1944,Jay Winik,1944.png
+19:48,19:46:00,19:49:59,Montana 1948,Larry Watson,1948.png
+19:52,19:50:00,19:53:29,7.52 to London Bridge,"Julian Kirkman-Page, Alexandra Page",1952.png
+19:55,19:53:30,19:56:59,Nineteen Fifty Five,Alice Walker,1955.png
+19:59,19:57:00,19:59:29,"7 Horas, 59 Minutos",F. C. de la Riva,1959.png
+20:00,19:59:30,20:00:29,Hard Eight,Janet Evanovich,2000.png
+20:01,20:00:30,20:02:29,2001: A Space Odyssey,Arthur C. Clarke,2001.png
+20:04,20:02:30,20:05:29,Faithful: Two Diehard Boston Red Sox Fans Chronicle the Historic 2004 Season,Stewart O'Nan,2004.png
+20:07,20:05:30,20:08:29,Flight 807,Arthur Hailey,2007.png
+20:10,20:08:30,20:10:59,2010: Odyssey Two,Arthur C. Clarke,2010.png
+20:12,20:11:00,20:13:29,20th Century Boys Vol 12,Naoki Urasawa,2012.png
+20:15,20:13:30,20:17:29,Europe After 8:15,H. L. Mencken,2015.png
+20:20,20:17:30,20:21:59,Complete Works of Aristotle,Aristotle (ed. Jonathan Barnes),2020.png
+20:24,20:22:00,20:25:29,824 Biscayne,Mu'ayad Abbas,2024.png
+20:27,20:25:30,20:28:29,2027,Frank Weniger,2027.png
+20:30,20:28:30,20:31:29,Tonight at 8:30,Noël Coward,2030.png
+20:33,20:31:30,20:33:29,Metro 2033,Дмитрий Глуховский,2033.png
+20:34,20:33:30,20:34:29,Metro 2034,Дмитрий Глуховский,2034.png
+20:35,20:34:30,20:37:29,Metro 2035,Дмитрий Глуховский,2035.png
+20:40,20:37:30,20:42:29,"20 Hrs. 40 Min., Our Flight In The Friendship",Amelia Earhart,2040.png
+20:45,20:42:30,20:45:59,Forty-five minutes past eight,Ward Morehouse,2045.png
+20:47,20:46:00,20:47:59,Le train de 8 h. 47,Georges Courteline,2047.png
+20:49,20:48:00,20:51:29,Blade Runner 2049,"Timothy Shanahan, Paul Smart",2049.png
+20:54,20:51:30,20:56:29,2054,"Elliot Ackerman, James Stavridis",2054.png
+20:59,20:56:30,20:59:29,2059,Micah Shippee,2059.png
+21:00,20:59:30,21:00:59,November Nine,Colleen Hoover,2100.png
+21:02,21:01:00,21:03:29,9:02: The Oklahoma City Bombing,Michael J. Hightower,2102.png
+21:05,21:03:30,21:05:59,2105 AD,David Petry,2105.png
+21:07,21:06:00,21:07:29,Ubuntu 9.04,Richard Petersen,2107.png
+21:08,21:07:30,21:09:29,2108,K. L. Glanville,2108.png
+21:11,21:09:30,21:11:59,09/11,Catherine Morley,2111.png
+21:13,21:12:00,21:15:29,Zero Hour 2113,D Kershaw,2113.png
+21:18,21:15:30,21:19:29,Sea Gypsy 2118,Margaret Mayo,2118.png
+21:21,21:19:30,21:22:59,2121: A Time Odyssey,Susan Greenfield,2121.png
+21:25,21:23:00,21:26:29,2125: The Final Hour,Karl Morgan,2125.png
+21:28,21:26:30,21:28:29,928 Miles from Home,Kim Slater,2128.png
+21:29,21:28:30,21:30:29,Doctor Copernicus 2129,John Banville,2129.png
+21:32,21:30:30,21:33:29,Invasion 2132,Raymund Eich,2132.png
+21:35,21:33:30,21:35:29,935 Lies,Charles Lewis,2135.png
+21:36,21:35:30,21:37:59,9 : 36pm,Alexis Denson,2136.png
+21:40,21:38:00,21:40:59,Startling Stories - 09/40,"Oscar J. Friend, Jack Binder, Benson Herbert, Ray Cummings, Gerald Bowman, John P. Gunnison, Earle K. Bergey",2140.png
+21:42,21:41:00,21:42:59,2142,Vincent Saker,2142.png
+21:44,21:43:00,21:45:29,Porsche 944,Larry Warren,2144.png
+21:47,21:45:30,21:48:29,Twenty-One Forty-Seven,Lewis MacLeod,2147.png
+21:50,21:48:30,21:51:29,"A history of Sparta, 950 B.C.",William George Grieve Forrest,2150.png
+21:53,21:51:30,21:53:59,Once@9:53am,Ilan Stavans,2153.png
+21:55,21:54:00,21:57:29,"The Battle of Lechfeld and its Aftermath, August 955",Charles R. Bowlus,2155.png
+22:00,21:57:30,22:00:29,Ten Little Indians,Agatha Christie,2200.png
+22:01,22:00:30,22:02:59,2201 Fascinating Facts,David Louis,2201.png
+22:05,22:03:00,22:07:29,1005,Bill Freeman,2205.png
+22:10,22:07:30,22:10:29,10/10 en Maths,Guy Blandino,2210.png
+22:11,22:10:30,22:12:29,22/11/63,Stephen King,2211.png
+22:14,22:12:30,22:16:29,2214 vini d'Italia,Riccardo Di Corato,2214.png
+22:19,22:16:30,22:20:29,Komanda 22/19,Andrei Volos,2219.png
+22:22,22:20:30,22:23:59,1022 Evergreen Place,"Debbie Macomber, Sandra Burr",2222.png
+22:26,22:24:00,22:27:29,"Symphonies, Nos. 22-26",Wolfgang Amadeus Mozart,2226.png
+22:29,22:27:30,22:29:29,"Berlin, 22-29 Avril",Armand Toupet,2229.png
+22:30,22:29:30,22:32:29,Ten-Thirty on a Summer Night,Marguerite Duras,2230.png
+22:35,22:32:30,22:35:29,Juvenile Instructor; 35 No. 22,George Q. Cannon,2235.png
+22:36,22:35:30,22:36:59,Secret Agent X - 10/36,"Brant House, William E. Luberoff",2236.png
+22:38,22:37:00,22:40:29,10 Minutes 38 Seconds in This Strange World,Elif Şafak,2238.png
+22:43,22:40:30,22:43:29,Andromaque 10-43,Lionel Chiuch,2243.png
+22:44,22:43:30,22:45:59,2244 Alien Apocalypse,"Martin Müller, Annika Schüttler, Rainer Ernst",2244.png
+22:48,22:46:00,22:48:59,Glitch 1048,Robert V. Mikkelson,2248.png
+22:50,22:49:00,22:50:29,Star Man's Son 2250 A.D.,Andre Norton,2250.png
+22:51,22:50:30,22:52:29,Ten Fifty-One,Georgia Lawrence,2251.png
+22:54,22:52:30,22:55:29,Código Civil - Artigo 1054.º,Ministério da Justiça,2254.png
+22:57,22:55:30,22:58:29,Ten Fifty-Seven,M. K. Lazar,2257.png
+23:00,22:58:30,23:02:29,Station Eleven,Emily St. John Mandel,2300.png
+23:05,23:02:30,23:07:29,1105 Yakima Street,"Debbie Macomber, Sandra Burr",2305.png
+23:10,23:07:30,23:10:29,Sniper Training : FM 23-10,U.S. Army,2310.png
+23:11,23:10:30,23:11:59,11:11,Marie D. Jones,2311.png
+23:13,23:12:00,23:14:59,Someone somewhere at 23:13,Ruskin Bond,2313.png
+23:17,23:15:00,23:18:59,2317 Code Name,"Jack Beall, Alec Donath, Michael Isserles",2317.png
+23:21,23:19:00,23:21:59,Lt. Reilly 2321,Matthew O Duncan,2321.png
+23:23,23:22:00,23:25:29,2323 Stratford Ave,Marcelo Rioseco,2323.png
+23:28,23:25:30,23:28:59,1128,Elliott Taylor,2328.png
+23:30,23:29:00,23:31:29,Eleven-thirty till twelve,Richard Greene,2330.png
+23:33,23:31:30,23:34:29,"5 Octobre, 23h33",Donald Harstad,2333.png
+23:36,23:34:30,23:36:59,Death Note Volume 11/36,Tsugumi Ohba,2336.png
+23:38,23:37:00,23:40:29,THX 1138,George Lucas,2338.png
+23:43,23:40:30,23:43:59,LZR-1143,Bryan James,2343.png
+23:45,23:44:00,23:45:59,Quarter to Midnight,Karen Rose,2345.png
+23:47,23:46:00,23:48:29,13 Minutes Before Midnight,Abhaidev,2347.png
+23:50,23:48:30,23:52:29,Genesis 23-50,William Wesley Grasham,2350.png
+23:55,23:52:30,23:56:29,Before Midnight,Cameron Dokey,2355.png
+23:58,23:56:30,23:58:29,Two Tocks before Midnight,Clay Boutwell,2358.png
+23:59,23:58:30,23:59:59,The Midnight Library,Matt Haig,2359.png
