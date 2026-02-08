@@ -118,6 +118,22 @@ FONT_CANDIDATES: Dict[str, List[str]] = {
     ],
 }
 
+CYRILLIC_SAFE_FONTS = {
+    "Arial",
+    "Courier",
+    "Garamond",
+    "Georgia",
+    "Helvetica",
+    "Times",
+}
+
+CYRILLIC_FALLBACKS = {
+    "Baskerville": "Georgia",
+    "Didot": "Georgia",
+    "Futura": "Helvetica",
+    "GillSans": "Helvetica",
+}
+
 
 # -----------------------------
 # Helpers
@@ -164,6 +180,18 @@ def load_font(font_name: str, size: int) -> ImageFont.FreeTypeFont:
             continue
     # last resort: default bitmap font (limited metrics)
     return ImageFont.load_default()
+
+
+def contains_cyrillic(text: str) -> bool:
+    return any("\u0400" <= ch <= "\u04FF" for ch in text)
+
+
+def pick_font_for_text(font_name: str, text: str) -> str:
+    if contains_cyrillic(text):
+        if font_name in CYRILLIC_SAFE_FONTS:
+            return font_name
+        return CYRILLIC_FALLBACKS.get(font_name, "Helvetica")
+    return font_name
 
 
 def text_bbox(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont) -> Tuple[int, int]:
@@ -428,6 +456,7 @@ def render_layout(layout: dict) -> Image.Image:
             font_name = el.get("font", "Helvetica")
             if font_name not in FONT_CANDIDATES:
                 font_name = "Helvetica"
+            font_name = pick_font_for_text(font_name, text)
 
             fit_mode = el.get("fit", "contain")
             if fit_mode not in ("contain", "cover"):

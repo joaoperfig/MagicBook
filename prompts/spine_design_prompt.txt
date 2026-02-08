@@ -2,19 +2,19 @@ You are designing book spine graphics.
 
 Create 3 distinct, simple spine design descriptions for the book below.
 All designs must use ONLY solid red, black, and white (no gradients, no shading).
-Each description should be 1-2 sentences and include:
-- Basic description that this is a vertical spine for a red book
-- Where the title and author appear on the spine (is the text horizontal, rotated 90 degrees, stacked
-?, how are the words separated, what style of font and colors are used)
-- Description of graphic motif or other design elements
-- A clean, minimal layout, easy to read and identify
+Each description should be 1-2 sentences, simple and descriptive
 Make sure to keep the descriptions different from each other, describing alternative designs that are different but still make sense for the book they would be on.
 The book is red - at least the top and bottom edges of the spine have to be red.
 You can add design elements such as panels or rules. Try to have variety in complexity, have at least one of the spines be just text on the plain red background, and you can make the others iteratively complex.
 Make sure your design is readable even on a small book, no tiny text.
-Make sure to include all numerical values in the title, like volume numbering, if applicable
+Make sure to include all numerical values in the title, like volume numbering, if applicable, try to give them emphasis in the designs. You can remove things like "nr." or "Vol" or parenthesis and such if they appear in the title string, if it makes sense.
+You are allowed to exclude the author from the spine if you want or if it makes sense (appears in the title, is a list of many authors, etc)
 Do not include a publisher name or logo unless specified in the author
 Prioritize readability. Its a book spine, not a cover. 
+You are describing the spine to a system that will render it, do not explain your decisions and keep it short and objective.
+Text can be: horizontal, vertical stacked, or vertical rotated, fonts can be ["Baskerville","Garamond","Georgia","Times","Didot","Helvetica","Arial","Futura","GillSans","Courier"]
+Be specific, if a rule should cover the spine from left to right, say that.
+The system can only draw simple shapes and text, do not try to design complex motifs
 
 
 Book title: "{title}"

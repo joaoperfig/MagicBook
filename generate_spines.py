@@ -349,23 +349,30 @@ def main() -> None:
             author = (row.get("author") or "").strip()
             time_slug = time_label.replace(":", "")
 
+            if not args.overwrite:
+                existing_paths = [
+                    OUTPUT_DIR / f"{time_slug}_{suffix}.png"
+                    for suffix in suffixes
+                    if (OUTPUT_DIR / f"{time_slug}_{suffix}.png").exists()
+                ]
+                if existing_paths:
+                    print(
+                        f"[skip] {time_label} {title} already has "
+                        f"{len(existing_paths)}/{len(suffixes)} spines",
+                        flush=True,
+                    )
+                    continue
+
             prompt = prompt_template.format(
                 title=title,
                 author=author,
                 time_label=time_label,
             ).strip()
 
-            output_paths: list[Path] = []
+            output_paths: list[Path] = [
+                OUTPUT_DIR / f"{time_slug}_{suffix}.png" for suffix in suffixes
+            ]
             task_meta: dict[Path, str] = {}
-            for suffix in suffixes:
-                output_path = OUTPUT_DIR / f"{time_slug}_{suffix}.png"
-                if output_path.exists() and not args.overwrite:
-                    print(f"[skip] {output_path.name} exists", flush=True)
-                    continue
-                output_paths.append(output_path)
-
-            if not output_paths:
-                continue
 
             print(
                 f"[queue {index}/{len(filtered_rows)}] {time_label} {title} "
