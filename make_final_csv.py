@@ -11,6 +11,7 @@ from pathlib import Path
 from PIL import Image
 
 import generate_spines as gs
+from image_to_epd_bmps import convert_image, parse_size
 
 
 @dataclass(frozen=True)
@@ -88,6 +89,22 @@ def main() -> None:
         "--output",
         default=str(gs.DATA_DIR / "booknames_curated_final.csv"),
         help="Output CSV path.",
+    )
+    parser.add_argument(
+        "--bmp-dir",
+        default=str(gs.PIC_DIR / "final_bmp"),
+        help="Output directory for BMP layers.",
+    )
+    parser.add_argument(
+        "--bmp-size",
+        default="480x800",
+        help="BMP output size like 800x480 (default: 480x800).",
+    )
+    parser.add_argument(
+        "--bmp-fit",
+        choices=("contain", "cover", "none"),
+        default="contain",
+        help="How to fit the image into the output size (default: contain).",
     )
     args = parser.parse_args()
 
@@ -169,21 +186,42 @@ def main() -> None:
     schedule = build_schedule(time_seconds)
     ordered_times = sorted(time_seconds)
 
+    bmp_output_dir = Path(args.bmp_dir)
+    bmp_size = parse_size(args.bmp_size) if args.bmp_size else None
+
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
-            handle, fieldnames=["time", "start", "end", "title", "author", "image"]
+            handle,
+            fieldnames=[
+                "time",
+                "start",
+                "end",
+                "title",
+                "author",
+                "image",
+                "image_black",
+                "image_red",
+                "image_preview",
+            ],
         )
         writer.writeheader()
         for entry in entries:
             seconds = parse_time_label(entry.time_label) * 60
             start, end = schedule[seconds]
-            start, end = schedule[seconds]
             if seconds == ordered_times[0]:
                 start = 0
             if seconds == ordered_times[-1]:
                 end = 86399
+
+            bmp_black = bmp_output_dir / f"{entry.time_slug}_b.bmp"
+            bmp_red = bmp_output_dir / f"{entry.time_slug}_r.bmp"
+            bmp_preview = bmp_output_dir / f"{entry.time_slug}_preview.bmp"
+            if not (bmp_black.exists() and bmp_red.exists() and bmp_preview.exists()):
+                bmp_black, bmp_red, bmp_preview = convert_image(
+                    entry.image_path, bmp_output_dir, bmp_size, args.bmp_fit
+                )
             writer.writerow(
                 {
                     "time": entry.time_label,
@@ -192,6 +230,9 @@ def main() -> None:
                     "title": entry.title,
                     "author": entry.author,
                     "image": entry.image_path.name,
+                    "image_black": bmp_black.name,
+                    "image_red": bmp_red.name,
+                    "image_preview": bmp_preview.name,
                 }
             )
 
