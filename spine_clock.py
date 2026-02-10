@@ -126,6 +126,11 @@ def parse_args() -> argparse.Namespace:
         metavar="HH:MM:SS",
         help="Override current time and display the book for this time.",
     )
+    parser.add_argument(
+        "--fast",
+        action="store_true",
+        help="Always use fast refresh (skip full refreshes).",
+    )
     return parser.parse_args()
 
 
@@ -152,7 +157,7 @@ def main() -> None:
             slot = find_current_slot(slots, forced_sec)
             if slot is None:
                 raise SystemExit(f"No matching slot for {args.force}.")
-            show_slot(epd, slot, fast=False)
+            show_slot(epd, slot, fast=args.fast)
             logging.info("Displayed %s for forced time %s", slot.time_label, args.force)
             return
 
@@ -166,8 +171,8 @@ def main() -> None:
                 continue
 
             if slot.time_label != current_label:
-                use_full = since_full >= 9
-                show_slot(epd, slot, fast=not use_full)
+                use_full = since_full >= 9 and not args.fast
+                show_slot(epd, slot, fast=args.fast or not use_full)
                 if use_full:
                     since_full = 0
                     logging.info("Displayed %s with full refresh", slot.time_label)
