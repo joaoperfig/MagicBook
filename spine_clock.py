@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import logging
+import os
 import sys
 import time
 from dataclasses import dataclass
@@ -134,9 +135,36 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def daemonize(log_path: Path) -> None:
+    if os.name != "posix":
+        return
+    if os.getppid() == 1:
+        return
+
+    pid = os.fork()
+    if pid > 0:
+        raise SystemExit(0)
+
+    os.setsid()
+
+    pid = os.fork()
+    if pid > 0:
+        raise SystemExit(0)
+
+    sys.stdout.flush()
+    sys.stderr.flush()
+    with open(os.devnull, "r", encoding="utf-8") as devnull:
+        os.dup2(devnull.fileno(), sys.stdin.fileno())
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_path, "a", encoding="utf-8") as logfile:
+        os.dup2(logfile.fileno(), sys.stdout.fileno())
+        os.dup2(logfile.fileno(), sys.stderr.fileno())
+
+
 def main() -> None:
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
     args = parse_args()
+    daemonize(BASE_DIR / "data" / "spine_clock.log")
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
 
     try:
         from waveshare_epd import epd7in5b_V2
