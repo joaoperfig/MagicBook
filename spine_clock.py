@@ -13,6 +13,7 @@ from datetime import datetime
 from pathlib import Path
 
 from PIL import Image
+from image_to_epd_bmps import convert_image
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_CSV = BASE_DIR / "data" / "booknames_curated_final.csv"
@@ -109,14 +110,18 @@ def set_border(epd) -> None:
 
 
 def show_slot(epd, slot: TimeSlot, fast: bool) -> None:
+    show_layers(epd, slot.black_path, slot.red_path, fast=fast)
+
+
+def show_layers(epd, black_path: Path, red_path: Path, fast: bool) -> None:
     if fast:
         epd.init_Fast()
     else:
         epd.init()
         epd.Clear()
     set_border(epd)
-    black_layer = Image.open(slot.black_path)
-    red_layer = Image.open(slot.red_path)
+    black_layer = Image.open(black_path)
+    red_layer = Image.open(red_path)
     epd.display(epd.getbuffer(black_layer), epd.getbuffer(red_layer))
 
 
@@ -131,6 +136,12 @@ def parse_args() -> argparse.Namespace:
         "--fast",
         action="store_true",
         help="Always use fast refresh (skip full refreshes).",
+    )
+    parser.add_argument(
+        "--image",
+        type=Path,
+        metavar="PATH",
+        help="Display a single image by converting it to EPD BMP layers first.",
     )
     return parser.parse_args()
 
@@ -174,6 +185,21 @@ def main() -> None:
         ) from exc
 
     epd = epd7in5b_V2.EPD()
+
+    if args.image:
+        image_path = args.image.resolve()
+        if not image_path.exists():
+            raise SystemExit(f"Image not found: {image_path}")
+        black_path, red_path, _preview_path = convert_image(
+            input_path=image_path,
+            output_dir=image_path.parent,
+            size=(480, 800),
+            fit="contain",
+        )
+        show_layers(epd, black_path, red_path, fast=args.fast)
+        logging.info("Displayed converted image from %s", image_path)
+        return
+
     slots = load_schedule(DATA_CSV, BMP_DIR)
 
     current_label: str | None = None
